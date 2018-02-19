@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/Cart"
+        android:layout_width="403dp"
+        android:layout_height="442dp"
+        android:layout_x="1dp"
+        android:layout_y="0dp"
+        android:background="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="236dp"
+        android:layout_y="449dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="459dp" />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="464dp"
+        android:text="totalPrice"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="41dp"
+        android:layout_x="15dp"
+        android:layout_y="453dp"
+        android:text="Total Price"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+</AbsoluteLayout>

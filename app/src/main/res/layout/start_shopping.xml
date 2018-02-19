@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/All_Catg"
+        android:layout_width="400dp"
+        android:layout_height="462dp"
+        android:layout_x="-6dp"
+        android:layout_y="81dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="59dp"
+        android:text="All Categories"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="9dp" />
+
+    <Button
+        android:id="@+id/micro"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_x="304dp"
+        android:layout_y="6dp"
+        android:text="Open" />
+
+</AbsoluteLayout>

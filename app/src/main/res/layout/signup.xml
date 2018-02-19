@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/New_Gender"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="15dp"
+        android:layout_y="186dp"
+        android:ems="10"
+        android:hint="Gender" />
+
+    <EditText
+        android:id="@+id/New_Password_"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="15dp"
+        android:layout_y="95dp"
+        android:ems="10"
+
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/SignUp_Done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="264dp"
+        android:layout_y="444dp"
+        android:text="Done" />
+
+    <EditText
+        android:id="@+id/New_UserName"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="12dp"
+        android:layout_y="14dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Job"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="15dp"
+        android:layout_y="277dp"
+        android:ems="10"
+        android:hint="Job"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <EditText
+        android:id="@+id/Date"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="17dp"
+        android:layout_y="364dp"
+        android:ems="10"
+        android:hint="Birthdate"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/Calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="281dp"
+        android:layout_y="369dp"
+        android:text="Calendar"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="370dp" />
+</AbsoluteLayout>

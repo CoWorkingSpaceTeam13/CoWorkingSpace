@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="19dp"
+        android:text="Product Name: "
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="99dp"
+        android:text="Price: "
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="79dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="232dp"
+        android:text="Quantity: "
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <EditText
+        android:id="@+id/productname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="83dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="57dp"
+        android:layout_height="41dp"
+        android:layout_x="181dp"
+        android:layout_y="223dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_x="238dp"
+        android:layout_y="224dp"
+        android:text="+"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_x="135dp"
+        android:layout_y="224dp"
+        android:text="-"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:layout_x="130dp"
+        android:layout_y="366dp"
+        android:hint="Total"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/quant"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_x="128dp"
+        android:layout_y="438dp"
+        android:text="Quantity"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/prodquan"
+        android:layout_width="72dp"
+        android:layout_height="49dp"
+        android:layout_x="268dp"
+        android:layout_y="436dp"
+        android:text="Product Quantity"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="264dp"
+        android:layout_y="360dp"
+        android:text="Done"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="172dp"
+        android:text="Product Quantity"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/Productquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="166dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Total"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/product1"
+        android:layout_width="189dp"
+        android:layout_height="39dp"
+        android:layout_x="12dp"
+        android:layout_y="46dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="57dp"
+        android:layout_height="41dp"
+        android:layout_x="262dp"
+        android:layout_y="44dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/inc"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_x="319dp"
+        android:layout_y="45dp"
+        android:text="+"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/dec"
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:layout_x="218dp"
+        android:layout_y="44dp"
+        android:text="-"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="191dp"
+        android:layout_height="42dp"
+        android:layout_x="96dp"
+        android:layout_y="291dp"
+        android:text="Total"
+        android:textAlignment="center"/>
+</AbsoluteLayout>

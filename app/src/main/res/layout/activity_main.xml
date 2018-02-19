@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/background_light"
+    tools:context="com.example.nashwaa.e_commerce.MainActivity">
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="57dp"
+        android:layout_y="204dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="418dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:text="SignUp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="285dp"
+        android:text="Remember Me" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="345dp"
+        android:backgroundTint="?attr/actionModeSplitBackground"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/Forgetpassword"
+        android:layout_width="141dp"
+        android:layout_height="39dp"
+        android:layout_x="241dp"
+        android:layout_y="284dp"
+        android:text="Forget password?" />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_x="54dp"
+        android:layout_y="103dp"
+        android:ems="10"
+        android:hint="UserName"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/custid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="29dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+</AbsoluteLayout>
